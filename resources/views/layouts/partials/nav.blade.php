@@ -27,7 +27,7 @@
   <!-- Right navbar links -->
   <ul class="navbar-nav ml-auto">
     <li class="nav-item">
-      <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="{{ route('pages.reportes') }}"><i class="far fa-file-pdf"></i></a>
+      <a class="nav-link" href="{{ route('pages.reportes') }}"><i class="far fa-file-pdf"></i></a>
     </li>
     <!-- Messages Dropdown Menu -->
     <li class="nav-item dropdown">
