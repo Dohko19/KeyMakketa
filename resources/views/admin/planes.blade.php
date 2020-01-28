@@ -14,11 +14,47 @@
       </div>
     </div>
     <div class="card-body">
-      Start creating your amazing application!
+      Planes de Accion
+      <div class="row">
+        <div class="container-fluid">
+          <table class="talbe">
+            <tr>
+              <th>Camapana Sucia</th>
+              <td><input class="form-control" type="text" placeholder="..."></td>
+              <td class="pull-right"><button class="btn btn-info"><i class="far fa-save"></i> Guardar</button></td>
+            </tr>
+            <tr>
+              <th>Area de Cochambre no desinfecatada</th>
+              <td><input class="form-control" type="text" placeholder="..."></td>
+              <td class="pull-right"><button class="btn btn-info"><i class="far fa-save"></i> Guardar</button></td>
+            </tr>
+            <tr>
+              <th>Personal no bien uniformado</th>
+              <td><input class="form-control" type="text" placeholder="..."></td>
+              <td class="pull-right"><button class="btn btn-info"><i class="far fa-save"></i> Guardar</button></td>
+            </tr>
+            <tr>
+              <th>Desconocimineto del proceso de desinfeccion</th>
+              <td><input class="form-control" type="text" placeholder="..."></td>
+              <td class="pull-right"><button class="btn btn-info"><i class="far fa-save"></i> Guardar</button></td>
+            </tr>
+            <tr>
+              <th>Equipos en mal estado</th>
+              <td><input class="form-control" type="text" placeholder="..."></td>
+              <td class="pull-right"><button class="btn btn-info"><i class="far fa-save"></i> Guardar</button></td>
+            </tr>
+            <tr>
+              <th>Falta de producto quimico</th>
+              <td><input class="form-control" type="text" placeholder="..."></td>
+              <td class="pull-right"><button class="btn btn-info"><i class="far fa-save"></i> Guardar</button></td>
+            </tr>
+          </table>
+        </div>
+      </div>
     </div>
     <!-- /.card-body -->
     <div class="card-footer">
-      Footer
+      <button class="btn btn-success">Test</button>
     </div>
     <!-- /.card-footer-->
   </div>

@@ -11,6 +11,20 @@
   <link rel="stylesheet" href="{{ asset('adminLTE/plugins/fontawesome-free/css/all.min.css') }}">
   <!-- IonIcons -->
   <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="adminLTE/plugins/daterangepicker/daterangepicker.css">
+
+  <link rel="stylesheet" href="adminLTE/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+
+  <link rel="stylesheet" href="adminLTE/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css">
+
+  <link rel="stylesheet" href="adminLTE/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+
+  <link rel="stylesheet" href="adminLTE/plugins/select2/css/select2.min.css">
+
+  <link rel="stylesheet" href="adminLTE/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
+
+  <link rel="stylesheet" href="adminLTE/plugins/bootstrap4-duallistbox/bootstrap-duallistbox.min.css">
+
   <!-- Theme style -->
   <link rel="stylesheet" href="{{ asset('adminLTE/css/adminlte.min.css') }}">
   <!-- Google Font: Source Sans Pro -->
