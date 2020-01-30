@@ -41,7 +41,7 @@ to get the desired effect
 |               | sidebar-mini                            |
 |---------------------------------------------------------|
 -->
-<body class="hold-transition sidebar-mini">
+<body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
   <!-- Navbar -->
   @include('layouts.partials.nav')
@@ -53,7 +53,8 @@ to get the desired effect
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
-    @include('layouts.partials.header')
+    {{-- @include('layouts.partials.header') --}}
+    <br>
     <!-- /.content-header -->
 
     <!-- Main content -->

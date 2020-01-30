@@ -1,7 +1,7 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
   <!-- Brand Logo -->
-  <a href="index3.html" class="brand-link">
-    <img src="adminLTE/img/AdminLTELogo.png" alt="Key Logo" class="brand-image img-circle elevation-3"
+  <a href="{{ route('pages.index') }}" class="brand-link">
+    <img src="imagen/k.png" width="160px" alt="Key Logo" class="brand-image img-circle elevation-3"
          style="opacity: .8">
     <span class="brand-text font-weight-light">Key</span>
   </a>
@@ -27,7 +27,7 @@
           <a href="#" class="nav-link {{ setActiveRoute('pages.index') }}">
             <i class="nav-icon fas fa-tachometer-alt"></i>
             <p>
-              Dashboard
+              Mis marcas
               <i class="right fas fa-angle-left"></i>
             </p>
           </a>
@@ -37,19 +37,19 @@
                 <i class="far fa-circle nav-icon"></i>
                 <p>Inicio</p>
               </a>
-            </li>
+            </li>{{--
             <li>
               <a href="{{ route('pages.dashboard') }}" class="nav-link {{ setActiveRoute('pages.dashboard') }}">
                 <i class="fas fa-user-cog nav-icon"></i>
                 <p>Administrar</p>
               </a>
-            </li>
-            <li>
+            </li> --}}
+            {{-- <li>
               <a href="{{ route('pages.planes') }}" class="nav-link {{ setActiveRoute('pages.planes') }}">
                 <i class="fas fa-file-contract nav-icon"></i>
                 <p>Planes de Acción</p>
               </a>
-            </li>
+            </li> --}}
           </ul>
         </li>
         <li class="nav-header">Reportes</li>

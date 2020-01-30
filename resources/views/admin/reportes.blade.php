@@ -4,7 +4,7 @@
   <!-- Default box -->
   <div class="card">
     <div class="card-header">
-      <h3 class="card-title">Title</h3>
+      <h3 class="card-title">Reportes Auditorias</h3>
 
       <div class="card-tools">
         <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip" title="Collapse">
@@ -15,7 +15,7 @@
       <div class="row">
         <div class="col-md-6">
             <div class="form-group">
-              <label>Selecciona</label>
+              <label>Marca</label>
               <select class="form-control" style="width: 100%;">
                 <option selected="selected">Cerveceria del barrio</option>
                 <option>Pizza Amore</option>
@@ -57,155 +57,158 @@
           <label>Tipo de Reporte</label>
           <select id="tipoR" name="tipoR" class="form-control" style="width: 100%;" onchange="ShowSelected();">
             <option selected="selected" disabled>Selecione uno...</option>
-            <option value="1">PDF</option>
-            <option value="2">EXCEL</option>
+            <option value="1">EXCEL</option>
+            <option value="2">PDF</option>
           </select>
         </div>
       </div>
+      <div class="col-md-12">
       <div id="myDIV" style="display: none;">
-         <table>
-              <tr>
-                  <th colspan="2" style="text-align: center; color: #FFF; background: #3590FA; font-weight: bold;">RESULTADOS</th>
-              </tr>
-              <tr>
-                  <th style="text-align: center; color: #FFF; background: #3590FA; font-weight: bold;">Mes</th>
-                  <th style="text-align: center; color: #FFF; background: #3590FA; font-weight: bold;">Calificacion</th>
-                  <th style="text-align: center; color: #FFF; background: #3590FA; font-weight: bold;">Acciones</th>
-              </tr>
-              <tr>
-                  <td style="text-align: center;">Auditoria Enero</td>
-                  <td style="text-align: center;">10</td>
-                  <td style="text-align: center;"><i class="fas fa-file-excel"></i></td>
-              </tr>
-              <tr>
-                  <td style="text-align: center;">Auditoria Febrero</td>
-                  <td style="text-align: center;">10</td>
-                  <td style="text-align: center;"><i class="fas fa-file-excel"></i></td>
-              </tr>
-              <tr>
-                  <td style="text-align: center;">Auditoria Marzo</td>
-                  <td style="text-align: center;">10</td>
-                  <td style="text-align: center;"><i class="fas fa-file-excel"></i></td>
-              </tr>
-              <tr>
-                  <td style="text-align: center;">Auditoria Abril</td>
-                  <td style="text-align: center;">10</td>
-                  <td style="text-align: center;"><i class="fas fa-file-excel"></i></td>
-              </tr>
-              <tr>
-                  <td style="text-align: center;">Auditoria Mayo</td>
-                  <td style="text-align: center;">10</td>
-                  <td style="text-align: center;"><i class="fas fa-file-excel"></i></td>
-              </tr>
-              <tr>
-                  <td style="text-align: center;">Auditoria Junio</td>
-                  <td style="text-align: center;">10</td>
-                  <td style="text-align: center;"><i class="fas fa-file-excel"></i></td>
-              </tr>
-              <tr>
-                  <td style="text-align: center;">Auditoria Julio</td>
-                  <td style="text-align: center;">10</td>
-                  <td style="text-align: center;"><i class="fas fa-file-excel"></i></td>
-              </tr>
-              <tr>
-                  <td style="text-align: center;">Auditoria Agosto</td>
-                  <td style="text-align: center;">10</td>
-                  <td style="text-align: center;"><i class="fas fa-file-excel"></i></td>
-              </tr>
-              <tr>
-                  <td style="text-align: center;">Auditoria Septiembre</td>
-                  <td style="text-align: center;">10</td>
-                  <td style="text-align: center;"><i class="fas fa-file-excel"></i></td>
-              </tr>
-              <tr>
-                  <td style="text-align: center;">Auditoria Octubre</td>
-                  <td style="text-align: center;">10</td>
-                  <td style="text-align: center;"><i class="fas fa-file-excel"></i></td>
-              </tr>
-              <tr>
-                  <td style="text-align: center;">Auditoria Noviembre</td>
-                  <td style="text-align: center;">10</td>
-                  <td style="text-align: center;"><i class="fas fa-file-excel"></i></td>
-              </tr>
-              <tr>
-                  <td style="text-align: center;">Auditoria Diciembre</td>
-                  <td style="text-align: center;">10</td>
-                  <td style="text-align: center;"><i class="fas fa-file-excel"></i></td>
-              </tr>
+          <table class="table table-hover">
+                <tr>
+                    <th colspan="2">RESULTADOS</th>
+                </tr>
+                <tr>
+                    <th >Mes</th>
+                    <th >Calificacion</th>
+                    <th >Acciones</th>
+                </tr>
+                <tr>
+                    <td >Auditoria Enero</td>
+                    <td >10</td>
+                    <td ><a href="auditoria.xlsx"><i class="fas fa-file-excel"></a></i></td>
+                </tr>
+                <tr>
+                    <td >Auditoria Febrero</td>
+                    <td >10</td>
+                    <td ><a href="auditoria.xlsx"><i class="fas fa-file-excel"></a></i></td>
+                </tr>
+                <tr>
+                    <td >Auditoria Marzo</td>
+                    <td >10</td>
+                    <td ><a href="auditoria.xlsx"><i class="fas fa-file-excel"></a></i></td>
+                </tr>
+                <tr>
+                    <td >Auditoria Abril</td>
+                    <td >10</td>
+                    <td ><a href="auditoria.xlsx"><i class="fas fa-file-excel"></a></i></td>
+                </tr>
+                <tr>
+                    <td >Auditoria Mayo</td>
+                    <td >10</td>
+                    <td ><a href="auditoria.xlsx"><i class="fas fa-file-excel"></a></i></td>
+                </tr>
+                <tr>
+                    <td >Auditoria Junio</td>
+                    <td >10</td>
+                    <td ><a href="auditoria.xlsx"><i class="fas fa-file-excel"></a></i></td>
+                </tr>
+                <tr>
+                    <td >Auditoria Julio</td>
+                    <td >10</td>
+                    <td ><a href="auditoria.xlsx"><i class="fas fa-file-excel"></a></i></td>
+                </tr>
+                <tr>
+                    <td >Auditoria Agosto</td>
+                    <td >10</td>
+                    <td ><a href="auditoria.xlsx"><i class="fas fa-file-excel"></a></i></td>
+                </tr>
+                <tr>
+                    <td >Auditoria Septiembre</td>
+                    <td >10</td>
+                    <td ><a href="auditoria.xlsx"><i class="fas fa-file-excel"></a></i></td>
+                </tr>
+                <tr>
+                    <td >Auditoria Octubre</td>
+                    <td >10</td>
+                    <td ><a href="auditoria.xlsx"><i class="fas fa-file-excel"></a></i></td>
+                </tr>
+                <tr>
+                    <td >Auditoria Noviembre</td>
+                    <td >10</td>
+                    <td ><a href="auditoria.xlsx"><i class="fas fa-file-excel"></a></i></td>
+                </tr>
+                <tr>
+                    <td >Auditoria Diciembre</td>
+                    <td >10</td>
+                    <td ><a href="auditoria.xlsx"><i class="fas fa-file-excel"></a></i></td>
+                </tr>
           </table>
           </div>
       </div>
+      </div>
       <div id="myDIV2" style="display: none;">
-          <table>
+          <table class="table table-hover">
               <tr>
-                  <th colspan="2" style="text-align: center; color: #FFF; background: #3590FA; font-weight: bold;">RESULTADOS</th>
+                  <th colspan="2" >RESULTADOS</th>
               </tr>
               <tr>
-                  <th style="text-align: center; color: #FFF; background: #3590FA; font-weight: bold;">Mes</th>
-                  <th style="text-align: center; color: #FFF; background: #3590FA; font-weight: bold;">Calificacion</th>
-                  <th style="text-align: center; color: #FFF; background: #3590FA; font-weight: bold;">Acciones</th>
+                  <th >Mes</th>
+                  <th >Calificacion</th>
+                  <th >Acciones</th>
               </tr>
               <tr>
-                  <td style="text-align: center;">Auditoria Enero</td>
-                  <td style="text-align: center;">10</td>
-                  <td style="text-align: center;"><i class="fas fa-file-pdf"></i></td>
+                  <td >Auditoria Enero</td>
+                  <td >10</td>
+                  <td ><a href="2364.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a></i></td>
               </tr>
               <tr>
-                  <td style="text-align: center;">Auditoria Febrero</td>
-                  <td style="text-align: center;">10</td>
-                  <td style="text-align: center;"><a href="2364.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a></td>
+                  <td >Auditoria Febrero</td>
+                  <td >10</td>
+                  <td ><a href="2364.pdf" target="_blank"><a href="2364.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a></i></a></td>
               </tr>
               <tr>
-                  <td style="text-align: center;">Auditoria Marzo</td>
-                  <td style="text-align: center;">10</td>
-                  <td style="text-align: center;"><i class="fas fa-file-pdf"></i></td>
+                  <td >Auditoria Marzo</td>
+                  <td >10</td>
+                  <td ><a href="2364.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a></td>
               </tr>
               <tr>
-                  <td style="text-align: center;">Auditoria Abril</td>
-                  <td style="text-align: center;">10</td>
-                  <td style="text-align: center;"><i class="fas fa-file-pdf"></i></td>
+                  <td >Auditoria Abril</td>
+                  <td >10</td>
+                  <td ><a href="2364.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a></i></td>
               </tr>
               <tr>
-                  <td style="text-align: center;">Auditoria Mayo</td>
-                  <td style="text-align: center;">10</td>
-                  <td style="text-align: center;"><i class="fas fa-file-pdf"></i></td>
+                  <td >Auditoria Mayo</td>
+                  <td >10</td>
+                  <td ><a href="2364.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a></i></td>
               </tr>
               <tr>
-                  <td style="text-align: center;">Auditoria Junio</td>
-                  <td style="text-align: center;">10</td>
-                  <td style="text-align: center;"><i class="fas fa-file-pdf"></i></td>
+                  <td >Auditoria Junio</td>
+                  <td >10</td>
+                  <td ><a href="2364.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a></i></td>
               </tr>
               <tr>
-                  <td style="text-align: center;">Auditoria Julio</td>
-                  <td style="text-align: center;">10</td>
-                  <td style="text-align: center;"><i class="fas fa-file-pdf"></i></td>
+                  <td >Auditoria Julio</td>
+                  <td >10</td>
+                  <td ><a href="2364.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a></i></td>
               </tr>
               <tr>
-                  <td style="text-align: center;">Auditoria Agosto</td>
-                  <td style="text-align: center;">10</td>
-                  <td style="text-align: center;"><i class="fas fa-file-pdf"></i></td>
+                  <td >Auditoria Agosto</td>
+                  <td >10</td>
+                  <td ><a href="2364.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a></i></td>
               </tr>
               <tr>
-                  <td style="text-align: center;">Auditoria Septiembre</td>
-                  <td style="text-align: center;">10</td>
-                  <td style="text-align: center;"><i class="fas fa-file-pdf"></i></td>
+                  <td >Auditoria Septiembre</td>
+                  <td >10</td>
+                  <td ><a href="2364.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a></i></td>
               </tr>
               <tr>
-                  <td style="text-align: center;">Auditoria Octubre</td>
-                  <td style="text-align: center;">10</td>
-                  <td style="text-align: center;"><i class="fas fa-file-pdf"></i></td>
+                  <td >Auditoria Octubre</td>
+                  <td >10</td>
+                  <td ><a href="2364.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a></i></td>
               </tr>
               <tr>
-                  <td style="text-align: center;">Auditoria Noviembre</td>
-                  <td style="text-align: center;">10</td>
-                  <td style="text-align: center;"><i class="fas fa-file-pdf"></i></td>
+                  <td >Auditoria Noviembre</td>
+                  <td >10</td>
+                  <td ><a href="2364.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a></i></td>
               </tr>
               <tr>
-                  <td style="text-align: center;">Auditoria Diciembre</td>
-                  <td style="text-align: center;">10</td>
-                  <td style="text-align: center;"><i class="fas fa-file-pdf"></i></td>
+                  <td >Auditoria Diciembre</td>
+                  <td >10</td>
+                  <td ><a href="2364.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a></i></td>
               </tr>
           </table>
+      </div>
       </div>
       </div>
       </div>
@@ -232,10 +235,16 @@
 
 <script src="{{ asset('adminLTE/plugins/daterangepicker/daterangepicker.js') }}"></script>
 <script src="{{ asset('adminLTE/plugins/select2/js/select2.full.min.js') }}"></script>
-
   <script>
     $('.select2').select2()
-    $('#reservation').daterangepicker()
+    $('#reservation').daterangepicker({
+      singleDatePicker: true,
+      showDropdowns: true,
+      minYear: 2000,
+      maxYear: parseInt(moment().format('YYYY'),10)
+    });
+
+
   </script>
   <script>
      function ShowSelected()
