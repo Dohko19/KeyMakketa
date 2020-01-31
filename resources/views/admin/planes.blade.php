@@ -4,7 +4,7 @@
   <!-- Default box -->
   <div class="card">
     <div class="card-header">
-      <h3 class="card-title">Title</h3>
+      <h3 class="card-title">Planes de Accion para la sucursal de La Cerveceria del Barrio</h3>
 
       <div class="card-tools">
         <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip" title="Collapse">
@@ -14,11 +14,9 @@
       </div>
     </div>
     <div class="card-body">
-      <h3 class="text-center">
-        Planes de Accion para la sucursal de La Cerveceria del Barrio
-      </h3>
       <div class="row">
         <div class="container-fluid">
+          <br>
           <table class="talbe">
             <tr>
               <th>Camapana Sucia</th>

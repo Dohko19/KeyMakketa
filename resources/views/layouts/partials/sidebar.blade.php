@@ -3,7 +3,7 @@
   <a href="{{ route('pages.index') }}" class="brand-link">
     <img src="imagen/k.png" width="160px" alt="Key Logo" class="brand-image img-circle elevation-3"
          style="opacity: .8">
-    <span class="brand-text font-weight-light">Key</span>
+    <span class="brand-text font-weight-light"><p></p></span>
   </a>
 
   <!-- Sidebar -->

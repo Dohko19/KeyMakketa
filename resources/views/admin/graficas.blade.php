@@ -15,11 +15,8 @@
               <button type="button" class="btn btn-tool" data-card-widget="remove"><i class="fas fa-times"></i></button>
             </div>
           </div><br><br>
-          <div class="col-md-12 pull-right">
-
-          </div>
           <div class="card-body">
-            <a  href="{{ route('pages.planes') }} " class="pull-right btn btn-info"> Ver Planes de Accion</a><br>
+            <a  href="{{ route('pages.planes') }} " class="pull-right btn btn-info float-right"> Ver Planes de Accion</a><br>
             <div class="chart"><br>
               <div class="form-group">
                 <label for="">Consultar Auditoria por Mes/Año</label>
